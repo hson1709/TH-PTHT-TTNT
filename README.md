@@ -55,22 +55,10 @@ npm run dev
 Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 Run this to reach the admin panel page
 
-# Group 78's members:
+# Group's members:
 * 22022651 - Bàn Hoàng Sơn
 * 22022613 - Nguyễn Bảo Sơn 
 * 22022660 - Lý Quốc An
 * 22022545 - Nguyễn Trọng Huy
 
-# User Stories cho Trang Web Bán Đồ Điện Tử
 
-1. Như một người dùng, tôi muốn có thể tìm kiếm sản phẩm theo danh mục (ví dụ: điện thoại di động, máy tính bảng, máy tính xách tay) để dễ dàng tìm thấy sản phẩm mà tôi quan tâm.
-
-2. Như một người dùng, tôi muốn có thể xem chi tiết sản phẩm, bao gồm hình ảnh, mô tả, thông số kỹ thuật và giá cả, để tôi có thể quyết định mua hàng.
-
-3. Như một người dùng, tôi muốn có thể thêm sản phẩm vào giỏ hàng và chỉnh sửa số lượng hoặc loại bỏ sản phẩm, để tôi có thể kiểm tra và xác nhận đơn hàng trước khi thanh toán.
-
-4. Như một người dùng, tôi muốn có thể tạo tài khoản và đăng nhập để lưu trữ thông tin cá nhân và lịch sử mua hàng, cũng như để nhận các ưu đãi và thông tin khuyến mãi từ trang web.
-
-5. Như một quản trị viên, tôi muốn có thể quản lý sản phẩm bao gồm thêm, sửa đổi hoặc xóa sản phẩm để cập nhật danh sách hàng hóa hiện có trên trang web.
-
-6. Như một quản trị viên, tôi muốn có thể quản lý đơn hàng bao gồm xem đơn hàng mới, xác nhận thanh toán và cập nhật trạng thái vận chuyển để đảm bảo quản lý hiệu quả hệ thống bán hàng.
