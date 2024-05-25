@@ -1,0 +1,16 @@
+.product-filter{
+    margin-top: 30px;
+}
+.product-filter h2  {
+    font-size: 31px;
+    margin-left: 80px;
+    color: #262626;
+    font-weight: 500;
+}
+.product-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}

@@ -1,0 +1,115 @@
+.shopcategory-banner{
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+.shopcategory-indexSort{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopcategory-sort {
+    position: relative; 
+}
+
+.shopcategory-sort select {
+    padding: 5px 10px; 
+    font-size: 16px; 
+    border: 0.5px solid rgb(49, 49, 49); 
+    border-radius: 15px; 
+    background-color: rgb(255, 255, 255); 
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.shopcategory-indexSort p span{
+    font-weight: 600;
+}
+
+.shopcategory-products{
+    margin: 20px 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 40px;
+}
+
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #dedede;
+    color: #777777;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.shopcategory-loadmore:hover{
+    transition: 0.4s;
+    background-color: #bcbcbc;
+}
+
+.shopcategory-loadmore:active{
+    background: #f3f3f3;
+    transition: 0.1s;
+}
+
+@media(max-width:1280px){
+    .shopcategory-banner{
+        margin: 20px auto;
+        width: 90%;
+    }
+    .shopcategory-indexSort{
+        width: 90%;
+        margin: auto;
+    }
+    .shopcategory-sort{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .shopcategory-indexSort p{
+        font-size: 12px;
+    }
+    .shopcategory-products{
+        width: 90%;
+        margin: 10px auto;
+        row-gap: 40px;
+    }
+    .shopcategory-products.item{
+        margin: auto;
+    }
+    .shopcategory-loadmore{
+        margin: 100px auto;
+        width: 200px;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+@media(max-width:800px){
+    .shopcategory-banner{
+        width: 95%;
+    }
+    .shopcategory-products{
+        width: 95%;
+    }
+    .shopcategory-loadmore{
+        margin: 60px auto;
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+@media(max-width:500px){
+    .shopcategory-products{
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,124 @@
+.add-product{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: white;
+}
+.addproduct-itemfield{
+    position: relative;
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.addproduct-itemfield input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 15px;
+    border: 1px solid #c5c5c5;
+    color: #7b7b7b;
+    font-family: 'Poppins';
+    font-size: 14px;
+    outline-color: #149e47;
+}
+.addproduct-itemfield textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px; 
+    border-radius: 15px;
+    padding: 10px 15px; 
+    border: 1px solid #c5c5c5;
+    color: #7b7b7b;
+    font-family: 'Poppins';
+    font-size: 14px;
+    outline-color: #149e47;
+    resize: vertical; 
+}
+.addproduct-price {
+    display: flex;
+    gap: 40px;
+}
+.addproduct-type{
+    display: flex;
+    gap: 40px;
+}
+.add-product-selector{
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+    color: #7b7b7b;
+    border: 1px solid #7b7b7b8d;
+    border-radius: 15px;
+}
+.addproduct-upload-area {
+    display: inline-block;
+    margin-right: 40px;
+}
+.addproduct-thumnail-img{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin: 20px 0px;
+}
+.addproduct-btn {
+    margin-top: 20px;
+    width: 40%;
+    height: 50px;
+    border-radius: 6px;
+    background: #149e47;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+    position: relative;
+}
+
+.addproduct-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px; 
+    background-color: transparent;
+    pointer-events: none; 
+}
+
+.addproduct-btn:hover::before {
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+.addproduct-btn > * { 
+    pointer-events: auto; 
+}
+
+.addproduct-remove-btn {
+    position: absolute; 
+    top: 5px; 
+    right: 5px; 
+    cursor: pointer;
+}
+
+.addproduct-remove-btn img {
+    width: 20px; 
+    height: 5px;
+}
+
+@media(max-width:800px){
+    .add-product{
+        width: auto;
+        padding: 30px;
+        margin: 20px;
+    }
+}

@@ -1,0 +1,42 @@
+.hero{
+    height: 35.5vw;
+    margin: 30px auto;
+    background: url('../Assets/banner.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    display: flex;
+    
+}
+.hero-contents{
+    position: absolute; 
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    bottom: 5%;
+    left: 10%;
+    animation:fadeIn 3s;
+}
+.hero-contents h2{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: max(4.5vw, 22px);
+}
+.hero-contents p{
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    
+}
+.hero-contents button{
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    color: #656565;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw);
+    border-radius: 50px;
+}
